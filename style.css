@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.display-f{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px ;
+}
+#youArePlayingAs{
+    font-size: 30px;
+    margin: 0;
+}
+#timerdisplay{
+    margin: 0;
+    margin-top: 0;
+    font-size: 40px;
+}
+.flex-col{
+    flex-direction: column;
+}
+#waiting_text_p{
+    width: 90vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30vh;
+    font-size: 40px;
+}
+#total_players{
+    font-size: 18px;
+    font-weight: 700;
+    position: absolute;
+    right: 20px;
+    top:10px;
+}
+.timer-button{
+    border:none;
+    border-radius: 4px;
+    font-size:30px;
+    background: white;
+    color:black;
+    padding: 4px 10px;
+}
+.timer-button:hover{
+    background-color: gray;
+    cursor: pointer;
+    color: white;
+}
